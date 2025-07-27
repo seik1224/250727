@@ -1,13 +1,16 @@
 'use client';
 
-import Lenis from "./lenis/lenis";
+
+import Horizontal from "./lenis/horizontal";
+import Lenis01 from "./lenis/lenis";
 import Observer01 from "./lenis/observer01";
 
 export default function Home() {
   return (
    <>
     {/* <Observer01 /> */}
-    <Lenis />
+    {/* <Lenis01 /> */}
+    <Horizontal />
    </>
   );
 }
