@@ -10,13 +10,16 @@
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.12.1",
     "next": "15.4.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "scrolltrigger": "^1.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/gsap": "^1.20.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
