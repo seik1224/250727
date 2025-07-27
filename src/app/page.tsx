@@ -11,6 +11,7 @@ import Gsap02 from './gsap/gsap02';
 import Gsap03 from './gsap/gsap03';
 import Gsap04 from './gsap/gsap04';
 import Framer01 from './framer/framer01';
+import Framer03 from './framer/framer03';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,7 +25,8 @@ export default function Home() {
     {/* <Gsap02 /> */}
     {/* <Gsap03 /> */}
     {/* <Gsap04 /> */}
-    <Framer01 />
+    {/* <Framer01 /> */}
+    <Framer03 />
    </>
   );
 }
