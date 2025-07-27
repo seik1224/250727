@@ -19,6 +19,8 @@ import Framer07 from './framer/framer07';
 import Framer08 from './framer/framer08';
 import Framer09 from './framer/framer09';
 import Framer10 from './framer/framer10';
+import Framer11 from './framer/framer11';
+import Framer12 from './framer/framer12';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -40,7 +42,9 @@ export default function Home() {
     {/* <Framer07 /> */}
     {/* <Framer08 /> */}
     {/* <Framer09 /> */}
-    <Framer10 />
+    {/* <Framer10 /> */}
+    {/* <Framer11 /> */}
+    <Framer12 />
    </>
   );
 }
